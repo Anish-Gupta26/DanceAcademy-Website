@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Permanent+Marker&display=swap');
+
+h1{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+.elements{
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.btn{
+     padding: 5px;
+    border: 1px solid black;
+    cursor: pointer; 
+     transition-duration: 0.4s;
+     width: 80px;
+     font-family: 'Merriweather Sans', sans-serif;
+}
+.btn:hover {
+    background-color: red;/
+    color: white;
+  }
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

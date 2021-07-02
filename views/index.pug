@@ -1,0 +1,60 @@
+doctype html
+html(lang="en")
+    head
+        title Dance Academy
+    style     
+      include ../static/style.css
+    
+    body 
+      nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/img/logo.png")
+                
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Classes Info]
+            li #[a(href='/') Contact Us]
+      section#intro 
+         div.heading Welcome to the Dance academy!!!
+         div.small EAT SLEEP DANCE REPEAT
+
+      section#mission 
+        h2 Our Mission
+        div.cards
+          div.card
+            h3 Unlimited Fun
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png", alt="Error")
+                div.card-content
+                    p Lorem ipsum dolor sit amet.
+         
+          div.card
+            h3 Professional Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png", alt="Error")
+                div.card-content
+                    p Lorem ipsum dolor sit amet.
+
+          div.card
+            h3 Make Dance a Culture
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png", alt="Error")
+                div.card-content
+                    p Lorem ipsum dolor sit amet.
+      
+      section#sponsers 
+        | Our Sponsers
+        
+        div.spimg
+            img(src="/static/img/logo1.png", alt="sponsers")
+            img(src="/static/img/logo2.png", alt="sponsers")
+            img(src="/static/img/logo3.png", alt="sponsers")
+            img(src="/static/img/logo4.png", alt="sponsers") 
+
+      footer#footer 
+       | Copyright &copy; 2021 Danceacademy.com | All rights reserved
+      include ../static/index.js

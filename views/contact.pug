@@ -1,0 +1,16 @@
+extends base.pug
+
+block style 
+    style
+      include ../static/styleContact.css
+      include ../static/style.css
+
+block content 
+    h1 Contact Page
+
+    form(action="/contact", method="post" class="forms") 
+        input(type="text", name = "name", placeholder="Enter your name" class="elements")
+        input(type="text", name = "age", placeholder="Enter your age" class="elements")
+        input(type="phone", name = "phone", placeholder="Enter your phone no.", class="elements")
+        input(type="email", name = "email", placeholder="Enter your email",class="elements")
+        input(type="submit" class='btn')

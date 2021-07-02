@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Permanent+Marker&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+#navbar{
+    background-color: red;
+    padding: 13px 14px;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* position: fixed;
+    z-index: -1; */
+    width: 100%;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar a{
+    padding:12px 23px;
+    text-decoration: none;
+    color: white;
+}
+#navbar a:hover{
+    color: black;
+    font-weight: bold;
+}
+#logo{
+    display: flex;
+    margin: 0 14px;
+    color: white;
+    align-items: center;
+}
+#logo img{
+    height: 30px;
+    filter: invert(0);
+}
+#intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    background: center/cover no-repeat url('static/bg.jpg');
+    color: white;
+    height: 425px ;
+}
+
+#intro .small{
+    font-size: 24px;
+}
+#mission{
+    height: 250px;
+}
+#mission h2{
+    font-size: 26px;
+    padding-top: 5px;
+    font-weight: bolder;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+#mission .cards{
+    display: flex;
+    justify-content: center;
+}
+#mission .card{
+    border: 4px solid #6d4c41;
+    border-radius: 4px;
+    width: 26%;
+    margin: 20px auto;
+    height: 167px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+#mission .card:hover{
+    background-color: #6d4c41d4;
+    color: white;
+    border: none;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+#sponsers{
+    background-color: #ffccbc;
+    padding-top: 5px;
+    font-size: 26px;
+    font-weight: bolder;
+    height: 250px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+.spimg{
+    height: 150px;
+    margin-top: 13px;
+}
+.spimg img{
+    height: 98px;
+    margin: 40px;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
